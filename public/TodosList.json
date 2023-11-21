@@ -1,0 +1,82 @@
+[
+    {
+        "posting_date":"04 November 2010",
+        "todos":[
+            {
+                "start_time":"10:00",
+                "end_time":"11:00",
+                "sowa":"HR Operations",
+                "description":"Income tax certificate preparation & distribution",
+                "percentage":20
+            },
+            {
+                "start_time":"10:00",
+                "end_time":"11:00",
+                "sowa":"Recruitment",
+                "description":"Interview Session for sales executive",
+                "percentage":30
+            },
+            {
+                "start_time":"10:00",
+                "end_time":"11:00",
+                "sowa":"Employee Relations",
+                "description":"Warehouse visit and discussion on DTDL",
+                "percentage":40
+            },
+            {
+                "start_time":"10:00",
+                "end_time":"11:00",
+                "sowa":"Off the Job",
+                "description":"Feeling sick & take rest",
+                "percentage": 0
+            },
+            {
+                "start_time":"10:00",
+                "end_time":"11:00",
+                "sowa":"Others",
+                "description":"Meeting with HoIT",
+                "percentage": 10
+            }
+        ]
+    },
+    {
+		"posting_date": "04 November 2010",
+		"todos": [
+			{
+				"start_time": "10:00",
+				"end_time": "11:00",
+				"sowa": "HR Operations",
+				"description": "Income tax certificate preparation & distribution",
+				"percentage": 20
+			},
+			{
+				"start_time": "10:00",
+				"end_time": "11:00",
+				"sowa": "Recruitment",
+				"description": "Interview Session for sales executive",
+				"percentage": 30
+			},
+			{
+				"start_time": "10:00",
+				"end_time": "11:00",
+				"sowa": "Employee Relations",
+				"description": "Warehouse visit and discussion on DTDL",
+				"percentage": 40
+			},
+			{
+				"start_time": "10:00",
+				"end_time": "11:00",
+				"sowa": "Off the Job",
+				"description": "Feeling sick & take rest",
+				"percentage": 0
+			},
+			{
+				"start_time": "10:00",
+				"end_time": "11:00",
+				"sowa": "Others",
+				"description": "Meeting with HoIT",
+				"percentage": 10
+			}
+		]
+	}
+]

@@ -1,0 +1,23 @@
+[
+	{
+        "sowa_id":1,
+		"sowa_name": "Recruitment",
+		"description": "Managing the recruitment and selection process"
+	},
+	{
+		"sowa_id": 2,
+		"sowa_name": "Payroll Processing",
+		"description": "Maintain payroll process and benefits program"
+	},
+	{
+		"sowa_id:"3,
+		"sowa_name": "Employee Relations",
+		"description": "Bridging management and employee relations by addressing demands, grievances or other issues"
+	},
+	{
+		"sowa_id":4,
+		"sowa_name": "HR Operations",
+		"description": "Develop and monitor overall HR operations, systems, tactics and procedures across the organization"
+	},
+	{ "sowa_id":5, "sowa_name": "Training & Others", "description": "Assess training needs to apply and monitor training programs"}
+]
