@@ -23,17 +23,23 @@ export default function TodosContainer() {
 					</tr>
 				</thead>
 			</table>
-			<div className='grid grid-cols-2'>
-				<div>
-					<p>20 November 2023</p>
+			{todos.map((item) => (
+				<div className='grid grid-cols-8 border border-black my-5'>
+					<div className='flex justify-center items-center row-span-2'>
+						<p>20 November 2023</p>
+					</div>
+					<div className='col-span-7'>
+						{item.todos.map((todo) => (
+							<div className='grid grid-cols-4'>
+								<p>{todo.start_time} - {todo.end_time}</p>
+								<p>{todo.sowa}</p>
+								<p>{todo.description}</p>
+								<p className='text-right pr-4'>{todo.percentage}%</p>
+							</div>
+						))}
+					</div>
 				</div>
-				<div className='flex '>
-					<p>Time & Duration</p>
-					<p>Scope of Work Area</p>
-					<p>List Daily Work</p>
-					<p>% of Daily Work</p>
-				</div>
-			</div>
+			))}
 		</div>
 	);
 }
