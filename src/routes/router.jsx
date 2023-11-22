@@ -5,10 +5,10 @@ import EmployeeDetails from '../pages/EmployeeDetails';
 export const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <EmployeeList />,
+		element: <EmployeeDetails />,
 	},
 	{
-		path: '/employee/:id',
-		element: <EmployeeDetails />,
+		path: '/employee/',
+		element: <EmployeeList />,
 	},
 ]);
